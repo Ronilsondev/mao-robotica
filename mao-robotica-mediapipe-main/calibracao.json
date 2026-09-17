@@ -1,0 +1,7 @@
+{
+  "polegar": {"pin": 10, "open": 0, "closed": 150},
+  "indicador": {"pin": 9, "open": 130, "closed": 0},
+  "medio": {"pin": 8, "open": 130, "closed": 0},
+  "anelar": {"pin": 7, "open": 0, "closed": 130},
+  "minimo": {"pin": 6, "open": 130, "closed": 0}
+}
