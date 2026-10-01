@@ -1,3 +1,5 @@
+# Registro de versões recebido com o projeto; não revalidado nesta auditoria.
+# Não substitui a validação de instalação em Python 3.12.
 absl-py==2.5.0
 attrs==26.1.0
 cffi==2.1.1

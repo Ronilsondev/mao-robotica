@@ -1,13 +1,13 @@
-  Para iniciar o projeto com a Logitech:
-  
-  .venv/bin/python mao-robotica-mediapipe-main/main.py --camera 2 --port /dev/ttyUSB0
+Execute os comandos na raiz do repositório, após instalar as dependências.
+Consulte README.md para instalação, calibração e detalhes do hardware.
 
-  Isso inicia a Logitech C920 e conecta o Arduino com a calibração corrigida.
+Listar portas seriais:
+.venv/bin/python mao-robotica-mediapipe-main/main.py --list-ports
 
-  
-  
-  Para usar a câmera integrada, execute com --camera 0:
+Câmera e Arduino (ajuste o índice e a porta ao seu computador):
+.venv/bin/python mao-robotica-mediapipe-main/main.py --camera 0 --port /dev/ttyUSB0
 
-  .venv/bin/python mao-robotica-mediapipe-main/main.py --camera 0 --port /dev/ttyUSB0
+Demonstração sintética sem hardware, limitada a 100 quadros:
+.venv/bin/python mao-robotica-mediapipe-main/main.py --demo --headless --frames 100
 
-  Encerre a aplicação anterior antes de iniciar novamente.
+Encerre a aplicação antes de iniciar outra conexão com a mesma porta.

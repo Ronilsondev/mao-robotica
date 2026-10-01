@@ -1,0 +1,2 @@
+# Preserve whitespace in the verbatim upstream license text.
+StandardFirmata/LICENSE.txt whitespace=-blank-at-eol,-blank-at-eof

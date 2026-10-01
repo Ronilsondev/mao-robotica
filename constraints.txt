@@ -1,0 +1,5 @@
+# Dependências transitivas do MediaPipe, sem imports diretos na aplicação.
+# JAX/JAXlib 0.7.1 requerem NumPy >=1.26; MediaPipe 0.10.21 requer NumPy <2.
+# Instalado e verificado com NumPy 1.26.4 em Python 3.12.14 / Linux x86_64.
+jax==0.7.1
+jaxlib==0.7.1
